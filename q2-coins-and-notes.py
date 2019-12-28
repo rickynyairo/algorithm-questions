@@ -1,3 +1,6 @@
+'''Solution to Q2'''
+# Should be run in python 3.6.6
+
 from typing import Generic, TypeVar
 
 

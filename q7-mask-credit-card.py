@@ -11,7 +11,7 @@ def mask(card_number):
         try:
             # non-numbers will throw a value error
             int(char)
-            if i < 4 or i - position_from_last >= 0:
+            if not (i < 4 or i - position_from_last >= 0):
                 char_list[i] = '#'
         except ValueError:
             continue
