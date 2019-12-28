@@ -6,7 +6,7 @@ def find_duplicate_ages(males, females):
     index_in_longer = 0
     duplicate_ages = []
     for age in shorter:
-        # traverse the longer array
+        # traverse the longer array only once
         # stop when the age is equal to the 
         # current age in shorter array
         # or at the end of the longer array
